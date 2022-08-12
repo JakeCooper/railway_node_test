@@ -1,6 +1,6 @@
 # fly.toml file generated for test-firecracker-api on 2021-09-14T18:04:58-07:00
 
-app = "test-firecracker-api"
+app = "patient-breeze-4576"
 
 kill_signal = "SIGINT"
 kill_timeout = 5

@@ -19,7 +19,7 @@ app.get("/", async (req, res) => {
   console.log(`Hit #${counter}`);
   counter++;
   res.send(
-    `Hello GitHub. This app is connected to a container running at ${process.env.PGHOST}:${process.env.PGPORT}`,
+    `Hello from railway. This app is connected to a container running at ${process.env.PGHOST}:${process.env.PGPORT}`,
   );
 });
 
